@@ -2,8 +2,6 @@ package com.connectingDotsInfotech.AccessingDataWithMySQL.repoistory;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.connectingDotsInfotech.AccessingDataWithMySQL.domain.User;
-
 public class UserRepositoryImpl implements UserRepositoryCustom {
 
 	@Autowired
@@ -12,7 +10,7 @@ public class UserRepositoryImpl implements UserRepositoryCustom {
 	@Override
 	public void deleteUser(Integer id) {
 		// TODO Auto-generated method stub
-		//userRepository.deleteById(id);
+		// userRepository.deleteById(id);
 
 	}
 //
